@@ -7,63 +7,66 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-      <div class="container">
-        <h1>FlexTurismos</h1>
-        <ul class="container ul">
-            <li><a href="#quem-somos">Quem Somos</a></li>
-            <li><a href="#servicos">Serviços</a></li>
-            <li><a href="#planos">Planos</a></li>
+    <header class="header">
+      <div class="container menu ">
+        <div><h1>FlexTurismos</h1></div>
+        <ul class="list-itens">
+            <li><a class="list-itens" href="#quem-somos">Quem Somos</a></li>
+            <li><a class="list-itens" href="#servicos">Serviços</a></li>
+            <li><a a class="list-itens" href="#planos">Planos</a></li>
       </div>
         </ul>
     </header>
 
-    <div class="container">
-        <div>
-            <h1>Flex <br>Turismos</h1>
+    <div class="container apresentacao">
+        <div class="text-apresent">
+            <h1 class="h1">Flex <br>Turismos</h1>
             <p>O melhor serviço para você!</p>
-            <a href="">Saiba Mais!</a>
+            <a class="a">Saiba Mais!</a>
         </div>
 
         <div>
-            <div><img src="0-main.png" alt="banner de apresentação"></div>
+            <div class="div-img"><img src="0-main.png" alt="banner de apresentação"></div>
         </div>
     </div>
 
-    <div class="container">
-        <div>
-            <img src="1-quem-somos.png" alt="balcão de atendimento">
-        </div>
-
-        <div>
-            <h2>Quem somos</h2>
+    <div class="container quem-somos">
+      <div>
+      <div class="r">
+        <div class="h2"></div>
+              <h2>Quem somos</h2>
+              </div>
             <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. </p>
             <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
         </div>
+        <div>
+            <img class="div-img2" src="1-quem-somos.png" alt="balcão de atendimento">
+        </div>
     </div>
 
-    <div class="container">
+    <div class="container container-externo" id="servicos">
         <div>
-            <h2>Serviços</h2>
+            <h2 class="h2a">Serviços</h2>
         </div>
 
-        <div>
-            <div>
-                <div><img src="icon-2.png" alt="hospedagens"></div>
-                <p>Hospedagens</p>
-                <a href="#">Comprar Agora</a>
+        <div class="list-servicos">
+            <div class="item-servico">
+                <div class="div-img"><img src="icon-2.png" alt="hospedagens">
+                </div>
+                <p class="p">Hospedagens</p>
+                <a class="a" href="#">Comprar Agora</a>
             </div>
 
-            <div>
-               <div><img src="icon-1.png" alt="pacote de viagens"></div>
-               <p>Pacotes de viagens</p>
-               <a href="#">Comprar Agora</a>
+            <div class="item-servico">
+               <div class="div-img"><img src="icon-1.png" alt="pacote de viagens"></div>
+               <p class="p">Pacotes de viagens</p>
+               <a class="a" href="#">Comprar Agora</a>
             </div>
 
-            <div>
-                <div><img src="icon-3.png" alt="roteiros personalizados"></div>
-                <p>Roteiros personalizados</p>
-                <a href="#">Comprar Agora</a>
+            <div class="item-servico">
+                <div class="div-img"><img src="icon-3.png" alt="roteiros personalizados"></div>
+                <p class="p">Roteiros personalizados</p>
+                <a class="a" href="#">Comprar Agora</a>
             </div>
 
         </div>
@@ -109,7 +112,7 @@
 
     <footer>
         <p>&copy; 2021 CSS Flexbox</p>
-        <p>Desenvolvido por: Seu nome aqui dev</p>
+        <p>Desenvolvido por: Diego Silca</p>
     </footer>
 </body>
 </html>
